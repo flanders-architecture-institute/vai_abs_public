@@ -1,0 +1,1038 @@
+{
+	"name": {
+		"label": "Naam",
+		"type": "calculated",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"reference_code": {
+		"label": "Referentienummer",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "P217",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "unitid",
+				"remarks": ""
+			}
+		}
+	},
+	"other_number": {
+		"label": "Ander nummer",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "unitid",
+				"remarks": ""
+			}
+		}
+	},
+	"title": {
+		"label": "Titel",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "P1476; Dnl",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "unittitle",
+				"remarks": ""
+			}
+		}
+	},
+	"other_title": {
+		"label": "Andere titel",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "unittitle",
+				"remarks": ""
+			}
+		}
+	},
+	"start_year": {
+		"label": "Begindatum",
+		"type": "date_flexible",
+		"mapping": {
+			"wikidata": {
+				"value": "P580",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "fromdate",
+				"remarks": ""
+			}
+		}
+	},
+	"end_year": {
+		"label": "Einddatum",
+		"type": "date_flexible",
+		"mapping": {
+			"wikidata": {
+				"value": "P582",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "todate",
+				"remarks": ""
+			}
+		}
+	},
+	"date_text": {
+		"label": "Andere datum",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "unitdate",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_level_description_id": {
+		"label": "Beschrijvingsniveau",
+		"type": "select",
+		"mapping": {
+			"wikidata": {
+				"value": "P6224",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "@level",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_id": {
+		"label": "Bovenliggend niveau",
+		"type": "select",
+		"mapping": {
+			"wikidata": {
+				"value": "P361",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"top_archive_id": {
+		"label": "Topniveau",
+		"type": "select",
+		"mapping": {
+			"wikidata": {
+				"value": "P361",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"content_remarks": {
+		"label": "Inhoudsomschrijving",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "abstract",
+				"remarks": ""
+			}
+		}
+	},
+	"container_id": {
+		"label": "Container ID",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "container",
+				"remarks": ""
+			}
+		}
+	},
+	"extent_medium": {
+		"label": "Omvang",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "physdesc",
+				"remarks": ""
+			}
+		}
+	},
+	"container_note": {
+		"label": "Aanduiding op verpakking",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_note": {
+		"label": "Interne aantekeningen",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "didnote",
+				"remarks": ""
+			}
+		}
+	},
+	"project_info": {
+		"label": "Bevat projectinformatie",
+		"type": "truefalse",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"country_id": {
+		"label": "Projectinformatie - land",
+		"type": "select",
+		"mapping": {
+			"wikidata": {
+				"value": "P7153",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "geogname.part",
+				"remarks": "localtype = 'Country'"
+			}
+		}
+	},
+	"thesaurus_place_id": {
+		"label": "Projectinformatie - gemeente (referentie)",
+		"type": "select",
+		"mapping": {
+			"wikidata": {
+				"value": "P7153",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "geogname.part",
+				"remarks": "localtype = 'Place'"
+			}
+		}
+	},
+	"project_address": {
+		"label": "Projectinformatie - adres",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "geogname.part",
+				"remarks": "localtype = 'Address'"
+			}
+		}
+	},
+	"project_coordinates": {
+		"label": "Projectinformatie - co\u00f6rdinaten",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "P625",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "geogname.geographiccoordinates",
+				"remarks": ""
+			}
+		}
+	},
+	"thesaurus_project_type_id": {
+		"label": "Projectinformatie - type (referentie)",
+		"type": "select",
+		"mapping": {
+			"wikidata": {
+				"value": "P921",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "subject.part",
+				"remarks": "localtype = 'Projecttype - general, ref.'"
+			}
+		}
+	},
+	"thesaurus_current_status_id": {
+		"label": "Projectinformatie - status",
+		"type": "select",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "subject.part",
+				"remarks": "localtype = 'Current status'"
+			}
+		}
+	},
+	"project_client": {
+		"label": "Projectinformatie - opdrachtgever(s)",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "subject.part",
+				"remarks": "localtype = 'Project client'"
+			}
+		}
+	},
+	"project_cooperations": {
+		"label": "Projectinformatie - samenwerkingen",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "subject.part",
+				"remarks": "localtype = 'Project cooperations'"
+			}
+		}
+	},
+	"project_oe_id": {
+		"label": "Projectinformatie - Onroerend Erfgoed ID",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "P921",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "subject.part",
+				"remarks": "localtype = 'FOIH ID' identifier ="
+			}
+		}
+	},
+	"project_description": {
+		"label": "Projectinformatie - beschrijving",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "odd",
+				"remarks": ""
+			}
+		}
+	},
+	"project_privacy_risk_date": {
+		"label": "Projectinformatie - privacygevoelig tot jaar",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"access_conditions": {
+		"label": "Raadpleging",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "accessrestrict",
+				"remarks": ""
+			}
+		}
+	},
+	"accessible_from": {
+		"label": "Raadpleegbaar vanaf",
+		"type": "date",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "accessrestrict",
+				"remarks": ""
+			}
+		}
+	},
+	"reproduction_conditions": {
+		"label": "Reproductie",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "accessrestrict",
+				"remarks": ""
+			}
+		}
+	},
+	"reproducible_from": {
+		"label": "Publiek domein vanaf",
+		"type": "date",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "accessrestrict",
+				"remarks": ""
+			}
+		}
+	},
+	"physical_access_conditions": {
+		"label": "Fysieke toegankelijkheid",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "accessrestrict",
+				"remarks": ""
+			}
+		}
+	},
+	"physical_access_date": {
+		"label": "Fysiek toegankelijk vanaf",
+		"type": "date",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "accesrestrict",
+				"remarks": ""
+			}
+		}
+	},
+	"finding_aid": {
+		"label": "Toegangen",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "otherfindaid",
+				"remarks": ""
+			}
+		}
+	},
+	"archivist_note": {
+		"label": "Archiefverwerking door",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "author",
+				"remarks": ""
+			}
+		}
+	},
+	"rules_conventions": {
+		"label": "Gehanteerde regels of afspraken",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "processinfo",
+				"remarks": ""
+			}
+		}
+	},
+	"description_date": {
+		"label": "Datering van de beschrijving",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"system_arrangement": {
+		"label": "Ordening",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "arrangement",
+				"remarks": ""
+			}
+		}
+	},
+	"archival_history": {
+		"label": "Beheergeschiedenis",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "custodhist",
+				"remarks": ""
+			}
+		}
+	},
+	"appraisal_destruction_scheduling": {
+		"label": "Selectie",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "appraisal",
+				"remarks": ""
+			}
+		}
+	},
+	"directions_for_use": {
+		"label": "Aanwijzingen voor de gebruiker",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "phystech",
+				"remarks": ""
+			}
+		}
+	},
+	"external_archival_materials": {
+		"label": "Verwant materiaal in andere bewaarplaatsen",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "archref",
+				"remarks": ""
+			}
+		}
+	},
+	"media": {
+		"label": "Dragers",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "materialspec",
+				"remarks": ""
+			}
+		}
+	},
+	"physical_technical": {
+		"label": "Technieken",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "materialspec",
+				"remarks": ""
+			}
+		}
+	},
+	"dimensions": {
+		"label": "Afmetingen",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "materialspec",
+				"remarks": ""
+			}
+		}
+	},
+	"accruals": {
+		"label": "Aanvullingen",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "accruals",
+				"remarks": ""
+			}
+		}
+	},
+	"appraisal_archive_creator": {
+		"label": "Waardestatement archiefvormer",
+		"type": "richtext",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"appraisal_statement_archive": {
+		"label": "Waardestatement archief",
+		"type": "richtext",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_use_value": {
+		"label": "Gebruikswaarde archief",
+		"type": "richtext",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"digitise_id": {
+		"label": "Gedigitaliseerd",
+		"type": "select",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"digitization_date": {
+		"label": "Digitalisering - datum",
+		"type": "text",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"digitization_note": {
+		"label": "Digitalisering - bijzonderheden",
+		"type": "textarea",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"publication_online": {
+		"label": "publication_online",
+		"type": "truefalse",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "None",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_thesaurus_period": {
+		"label": "Periodes",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_thesaurus_place": {
+		"label": "Gemeentes",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "P7153",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_thesaurus_document_type": {
+		"label": "Documenttypes",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_thesaurus_project_phase": {
+		"label": "Projectfases",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_actor_related": {
+		"label": "Gerelateerde actoren",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "P3342",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_archive": {
+		"label": "Gerelateerde beschrijvingseenheden",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_object": {
+		"label": "Objecten in dit bestanddeel",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_location": {
+		"label": "Bewaarplaats",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_acquisition": {
+		"label": "Verwervingen",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_conservation": {
+		"label": "Conservering",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_condition_check": {
+		"label": "Conditiecontroles",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_deaccession": {
+		"label": "Afstotingen",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_loan_out": {
+		"label": "Bruiklenen (uit)",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_thesaurus_language": {
+		"label": "Talen",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_thesaurus_style": {
+		"label": "Stijl",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "P149",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_thesaurus_program": {
+		"label": "Programma",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "None",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_projecttype_detail": {
+		"label": "Archief - Projecttype (detail)",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "P921",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_projecttype": {
+		"label": "Archief - Projecttype (algemeen)",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "P921",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_object_associative": {
+		"label": "Gerelateerde objecten",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "?",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	},
+	"archive_thesaurus_archive_type_related": {
+		"label": "Archieftype",
+		"type": "relationship",
+		"mapping": {
+			"wikidata": {
+				"value": "P31",
+				"remarks": ""
+			},
+			"ead": {
+				"value": "",
+				"remarks": ""
+			}
+		}
+	}
+}
