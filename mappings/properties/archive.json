@@ -46,8 +46,8 @@
 		"type": "text",
 		"mapping": {
 			"wikidata": {
-				"value": "P1476; Dnl",
-				"remarks": ""
+				"value": "Dnl",
+				"remarks": "Can also be used with P1476"
 			},
 			"ead": {
 				"value": "unittitle",
@@ -135,7 +135,7 @@
 			},
 			"ead": {
 				"value": "None",
-				"remarks": ""
+				"remarks": "EAD uses XML-hiërarchie for this field"
 			}
 		}
 	},
@@ -149,7 +149,7 @@
 			},
 			"ead": {
 				"value": "None",
-				"remarks": ""
+				"remarks": "EAD uses XML-hiërarchie for this field"
 			}
 		}
 	},
