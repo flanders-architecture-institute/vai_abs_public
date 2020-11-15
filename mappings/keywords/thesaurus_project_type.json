@@ -1,6 +1,6 @@
 {
 	"keywordlist": "thesaurus_project_type",
-	"last_updated_on": "20201106-17h07m16s",
+	"last_updated_on": "2020-11-15T15:35:35",
 	"record": {
 		"1": {
 			"id": "1",
@@ -149,7 +149,7 @@
 		"25": {
 			"id": "25",
 			"name": "Meergezinswoningen - flatgebouwen",
-			"external_id": "http://vocab.getty.edu/page/aat/300005707",
+			"external_id": "300005707",
 			"wikidata_id": null
 		},
 		"26": {
