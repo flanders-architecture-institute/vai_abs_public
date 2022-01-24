@@ -102,7 +102,6 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "@context": "http://iiif.io/api/presentation/3/context.json",
               "id": "https://example.org/iiif/image-1/annotation/01-image",
               "creator": {
                 "id": "https://cloud.google.com/vision/",
@@ -111,31 +110,14 @@
               },
               "created": "2022-01-28T12:00:00Z",
               "type": "Annotation",
-              "motivation": "describing",
-              "body": [
+              "motivation": "tagging",
+              "body":
                 {
                   "type": "TextualBody",
                   "language": "en",
                   "value": "Office building",
-                  "purpose": "tagging",
-                  "selector": {
-                    "type": "FragmentSelector",
-                    "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "xywh=percent:25,25,50,50"
-                  }
+                  "purpose": "tagging"
                 },
-                {
-                  "type": "TextualBody",
-                  "language": "en",
-                  "value": "Photo",
-                  "purpose": "classifying"
-                },
-                {
-                  "type": "SpecificResource",
-                  "source": "http://vocab.getty.edu/aat/300046300",
-                  "purpose": "classifying"
-                }
-              ],
               "target": "https://example.org/iiif/1/manifest"
             }
           ]
