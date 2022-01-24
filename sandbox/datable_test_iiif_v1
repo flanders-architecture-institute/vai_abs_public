@@ -86,7 +86,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://example.org/images/page1.jpg",
+                "id": "https://adore.ugent.be/IIIF/images/archive.ugent.be%3A1BC42F44-D891-11E6-AA0D-A3F903ED5190%3ADS.0_1/0,0,2550,3300/226,/0/default.jpg",
                 "type": "Image"
               },
               "target": "https://example.org/iiif/image1/canvas/p1"
