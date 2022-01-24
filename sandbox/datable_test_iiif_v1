@@ -84,7 +84,7 @@
             {
               "id": "https://example.org/iiif/image1/annopage/p1/a1",
               "type": "Annotation",
-              "motivation": "painting",
+	      "motivation": "painting",
               "body": {
                 "id": "https://adore.ugent.be/IIIF/images/archive.ugent.be%3A1BC42F44-D891-11E6-AA0D-A3F903ED5190%3ADS.0_1/full/full/0/native.jpg",
                 "type": "Image",
@@ -136,7 +136,7 @@
             {
               "id": "https://example.org/iiif/image1/annopage/p1/a2",
               "type": "Annotation",
-              "motivation": "painting",
+	      "motivation": "painting",
               "body": {
                 "id": "https://adore.ugent.be/IIIF/images/archive.ugent.be%3A1BC42F44-D891-11E6-AA0D-A3F903ED5190%3ADS.0_2/full/full/0/native.jpg",
                 "type": "Image",
@@ -156,7 +156,7 @@
             {
               "id": "https://example.org/iiif/image-1/annotation/01-image-456",
               "type": "Annotation",
-              "motivation": "tagging",
+	      "motivation": "tagging",
               "body":
                 {
                   "type": "TextualBody",
