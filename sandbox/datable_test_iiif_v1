@@ -86,7 +86,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://adore.ugent.be/IIIF/images/archive.ugent.be%3A1BC42F44-D891-11E6-AA0D-A3F903ED5190%3ADS.0_1/0,0,2550,3300/226,/0/default.jpg",
+                "id": "https://adore.ugent.be/IIIF/images/archive.ugent.be%3A1BC42F44-D891-11E6-AA0D-A3F903ED5190%3ADS.0_1/full/full/0/native.jpg",
                 "type": "Image",
                 "height": 4613,
                 "width": 3204
@@ -110,6 +110,58 @@
                   "type": "TextualBody",
                   "language": "en",
                   "value": "Office building",
+                  "format": "text/plain"
+                },
+              "target": "https://example.org/iiif/1/manifest"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": "https://example.org/iiif/image1/canvas/p2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "wims extra pagina"
+        ]
+      },
+      "height": 4613,
+      "width": 3204,
+      "items": [
+        {
+          "id": "https://example.org/iiif/image1/content/p1/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/image1/annopage/p1/a2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://adore.ugent.be/IIIF/images/archive.ugent.be%3A1BC42F44-D891-11E6-AA0D-A3F903ED5190%3ADS.0_2/full/full/0/native.jpg",
+                "type": "Image",
+                "height": 4613,
+                "width": 3204
+              },
+              "target": "https://example.org/iiif/image1/canvas/p2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/image1/comments/p1/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/image-1/annotation/01-image-456",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body":
+                {
+                  "type": "TextualBody",
+                  "language": "en",
+                  "value": "Ruin",
                   "format": "text/plain"
                 },
               "target": "https://example.org/iiif/1/manifest"
