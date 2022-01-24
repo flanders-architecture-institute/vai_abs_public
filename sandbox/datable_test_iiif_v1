@@ -136,7 +136,7 @@
                   "purpose": "classifying"
                 }
               ],
-              "target": "https://example.org/iiif/image1/canvas/p1"
+              "target": "https://example.org/iiif/1/manifest"
             }
           ]
         }
