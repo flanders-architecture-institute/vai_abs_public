@@ -104,12 +104,6 @@
             {
               "id": "https://example.org/iiif/image-1/annotation/01-image-123",
               "type": "Annotation",
-              "creator": {
-                "id": "https://cloud.google.com/vision/",
-                "type": "Software",
-                "name": "Google Vision"
-              },
-              "created": "2022-01-28T12:00:00Z",
 	      "motivation": "tagging",
               "body":
                 {
