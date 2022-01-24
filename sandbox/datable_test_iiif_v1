@@ -109,7 +109,7 @@
                 "type": "Software",
                 "name": "Google Vision"
               },
-              "created": "2022-01-28T12:00:00Z"
+              "created": "2022-01-28T12:00:00Z",
 	      "motivation": "tagging",
               "body":
                 {
