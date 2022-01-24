@@ -102,13 +102,7 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/image-1/annotation/01-image",
-              "creator": {
-                "id": "https://cloud.google.com/vision/",
-                "type": "Software",
-                "name": "Google Vision"
-              },
-              "created": "2022-01-28T12:00:00Z",
+              "id": "https://example.org/iiif/image-1/annotation/01-image-123",
               "type": "Annotation",
               "motivation": "tagging",
               "body":
@@ -116,7 +110,7 @@
                   "type": "TextualBody",
                   "language": "en",
                   "value": "Office building",
-                  "purpose": "tagging"
+                  "format": "text/plain"
                 },
               "target": "https://example.org/iiif/1/manifest"
             }
